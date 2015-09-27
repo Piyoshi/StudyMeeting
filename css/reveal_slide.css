@@ -1,0 +1,107 @@
+/* line 13, ../sass/reveal_slide.scss */
+.reveal .slides {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px; }
+/* line 28, ../sass/reveal_slide.scss */
+.reveal .slides section {
+  width: 100%;
+  margin-top: 0px;
+  padding-bottom: 0; }
+/* line 33, ../sass/reveal_slide.scss */
+.reveal .slides section h1 {
+  font-size: 4.44em; }
+/* line 36, ../sass/reveal_slide.scss */
+.reveal .slides section h2 {
+  font-size: 3.05em; }
+/* line 39, ../sass/reveal_slide.scss */
+.reveal .slides section h3 {
+  font-size: 2em; }
+/* line 42, ../sass/reveal_slide.scss */
+.reveal .slides section h4 {
+  font-size: 1.5em; }
+/* line 45, ../sass/reveal_slide.scss */
+.reveal .slides section p {
+  font-size: 1em; }
+/* line 47, ../sass/reveal_slide.scss */
+.reveal .slides section p.lank-2 {
+  text-indent: 40px; }
+/* line 51, ../sass/reveal_slide.scss */
+.reveal .slides section div {
+  font-size: 1em;
+  line-height: 1.7; }
+/* line 55, ../sass/reveal_slide.scss */
+.reveal .slides section strong {
+  font-weight: bold;
+  color: #d44; }
+/* line 59, ../sass/reveal_slide.scss */
+.reveal .slides section ul {
+  margin-top: 40px; }
+/* line 61, ../sass/reveal_slide.scss */
+.reveal .slides section ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.30em; }
+/* line 65, ../sass/reveal_slide.scss */
+.reveal .slides section ol {
+  margin-top: 40px; }
+/* line 67, ../sass/reveal_slide.scss */
+.reveal .slides section ol li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.30em; }
+/* line 71, ../sass/reveal_slide.scss */
+.reveal .slides section table {
+  width: 130%;
+  margin-left: -15%; }
+/* line 84, ../sass/reveal_slide.scss */
+.reveal .slides section pre {
+  width: 95%;
+  height: 100%; }
+/* line 88, ../sass/reveal_slide.scss */
+.reveal .slides section pre code {
+  padding-top: 0;
+  margin-top: -24px;
+  font-size: x-large;
+  line-height: 1.2; }
+/* line 97, ../sass/reveal_slide.scss */
+.reveal .slides section .slide-title, .reveal .slides section .highlight-content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3.05em; }
+/* line 102, ../sass/reveal_slide.scss */
+.reveal .slides section .large-content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.4em; }
+/* line 107, ../sass/reveal_slide.scss */
+.reveal .slides section .larger-content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.6em; }
+/* line 112, ../sass/reveal_slide.scss */
+.reveal .slides section .page-title {
+  position: absolute;
+  text-align: left;
+  left: -1em;
+  margin-top: -1em;
+  font-size: 3.05em; }
+/* line 119, ../sass/reveal_slide.scss */
+.reveal .slides section .content-lefty {
+  text-align: left;
+  margin-top: 1.20em; }
+/* line 123, ../sass/reveal_slide.scss */
+.reveal .slides section .wrap {
+  width: 130%;
+  height: 100%;
+  margin-top: 1.20em;
+  margin-left: -15%;
+  overflow: hidden; }
+/* line 130, ../sass/reveal_slide.scss */
+.reveal .slides section .left {
+  float: left;
+  width: 50%; }
+/* line 134, ../sass/reveal_slide.scss */
+.reveal .slides section .right {
+  float: right;
+  width: 50%; }
