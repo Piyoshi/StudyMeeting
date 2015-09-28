@@ -598,3 +598,25 @@ defmodule Fizzbuzz do
 </div>
 
 
+--
+<div class='page-title'>今後に期待！</div>
+<div class="content-lefty">
+<br />
+|> Erlang自体も最近注目度が上がっている  
+|> 当然Elixirにも今後さらに注目が集まる予感  
+|> 関数型言語への入門にもちょうどいい  
+|> 耐障害性バンザイ！
+</div>
+
+
+--
+<div class='page-title'>今後に期待・・・</div>
+<div class="larger-content">
+<br />
+社内で使えるようになる時期は  
+検討もつきません ┐(￣ヘ￣）┌ 
+</div>
+
+
+--
+<div class="highlight-content">お疲れさまでした</div>
