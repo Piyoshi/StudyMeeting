@@ -593,7 +593,7 @@ defmodule Fizzbuzz do
 <p class="lank-2">|> よく分かってなくても動くものを作りやすい</p>
 |> 学習コストが高い・・・
 <p class="lank-2">|> ErlangとElixirとPhoenixの知識が必要・・・</p>
-<p class="lank-2">|> やってる人がまだまだ少ない</p>
+<p class="lank-2">|> やってる人がまだまだ少ない・・・</p>
 <p class="lank-2">|> 日本語ドキュメント少ない・・・</p>
 </div>
 
@@ -606,15 +606,6 @@ defmodule Fizzbuzz do
 |> 当然Elixirにも今後さらに注目が集まる予感  
 |> 関数型言語への入門にもちょうどいい  
 |> 耐障害性バンザイ！
-</div>
-
-
---
-<div class='page-title'>今後に期待・・・</div>
-<div class="larger-content">
-<br />
-社内で使えるようになる時期は  
-検討もつきません ┐(￣ヘ￣）┌ 
 </div>
 
 
