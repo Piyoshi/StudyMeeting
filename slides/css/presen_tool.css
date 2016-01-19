@@ -1,0 +1,155 @@
+#top {
+    padding: 0;
+    text-align: center;
+}
+#top .headnote {
+    font-size: 64px;
+    top: -0.7em;
+    left: 1.5em;
+    margin-bottom: 48px;
+
+    -webkit-transform:  translateZ(20px);
+    -moz-transform:     translateZ(20px);
+    -ms-transform:      translateZ(20px);
+    -o-transform:       translateZ(20px);
+    transform:          translateZ(20px);
+}
+#top .main {
+    font-size: 1.9em;
+
+    -webkit-transform:  translateZ(50px);
+    -moz-transform:     translateZ(50px);
+    -ms-transform:      translateZ(50px);
+    -o-transform:       translateZ(50px);
+    transform:          translateZ(50px);
+}
+#top .footnote {
+    margin-top: 36px;
+    font-size: 0.8em;
+}
+
+.slide q {
+    display: block;
+    font-size: 64px;
+    line-height: 96px;
+
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+
+.slide p {
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.slide .small {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.step iframe {
+    margin: 12px;
+    width: 360px;
+    height: 240px;
+}
+
+#supplementation .main {
+    text-align: left;
+    font-size: 50px;
+
+    -webkit-transform:  translateZ(10px);
+    -moz-transform:     translateZ(10px);
+    -ms-transform:      translateZ(10px);
+    -o-transform:       translateZ(10px);
+    transform:          translateZ(10px);
+}
+
+.step.normal {
+    padding: 0;
+    text-align: center;
+    opacity: 0.0;
+}
+.normal .headnote {
+    font-size: 60px;
+    top: -0.7em;
+    left: 1.5em;
+    margin-bottom: 48px;
+
+    -webkit-transform:  translateZ(40px);
+    -moz-transform:     translateZ(40px);
+    -ms-transform:      translateZ(40px);
+    -o-transform:       translateZ(40px);
+    transform:          translateZ(40px);
+}
+.normal .main {
+    text-align: left;
+    font-size: 40px;
+
+    -webkit-transform:  translateZ(10px);
+    -moz-transform:     translateZ(10px);
+    -ms-transform:      translateZ(10px);
+    -o-transform:       translateZ(10px);
+    transform:          translateZ(10px);
+}
+.normal .footnote {
+    margin-sample-tool: 36px;
+    font-size: 0.8em;
+}
+
+a {
+    color: #2222dd;
+    background: rgba(220,220,220,0.5);
+    text-shadow: -1px -1px 1px rgb(100,100,100);
+}
+a:hover,
+a:focus {
+    background: rgba(180,180,180, 0.9)
+    text-shadow: -1px -1px 1px rgba(100,100,100,0.5);
+}
+
+.step .emphasis {
+    font-size: 1.1em;
+}
+
+.main .left {
+    float: left;
+    width: 45%;
+}
+.main .right {
+    float: right;
+    width: 55%;
+}
+
+.main .zigzag-front {
+    -webkit-transform:  translateZ(60px);
+    -moz-transform:     translateZ(60px);
+    -ms-transform:      translateZ(60px);
+    -o-transform:       translateZ(60px);
+    transform:          translateZ(60px);
+}
+.main .zigzag-back {
+    -webkit-transform:  translateZ(-40px);
+    -moz-transform:     translateZ(-40px);
+    -ms-transform:      translateZ(-40px);
+    -o-transform:       translateZ(-40px);
+    transform:          translateZ(-40px);
+}
+
+#work .headnote {
+    text-align: center;
+    font-size: 60px;
+    top: -0.7em;
+    left: 1.5em;
+    margin-bottom: 48px;
+
+}
+#work .main p {
+    text-align: center;
+    font-size: 40px;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+#work li {
+    line-height: 80px;
+    margin-left: 80px;
+}

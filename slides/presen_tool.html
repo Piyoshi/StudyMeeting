@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>Introduce impress slide</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Seric:400,700,400italic,700italic" />
+        <link rel="stylesheet" href="css/impress-demo.css" />
+        <link rel="stylesheet" href="css/presen_tool.css" />
+    </head>
+    <body class="impress-not-supported">
+        <div class="fallback-message">
+            Your browser doesn't support the features required by impress.js.
+        </div>
+
+        <!-- Start to write slides. -->
+        <div id="impress">
+            <div id="top" class="step" data-x="0" data-y="0" data-scale="4">
+                <div class="headnote">技術MTG 2015-11-26</div>
+                <div class="main">HTMLプレゼンツール<br />について</div>
+                <div class="footnote">Satoshi UENO</div>
+            </div>
+            <div id="first" class="step slide" data-x="-2000" data-y="-1500">
+                <q>はじめに</q>
+                <p>HTMLプレゼンテーション知ってますか？</p>
+            </div>
+            <div class="step slide" data-x="-1000" data-y="-1500">
+                <q>HTMLプレゼンテーション</q>
+                <p>・名前の通りブラウザで見るプレゼン</p>
+                <p>・ダイナミックなスライド</p>
+                <p>・環境に依存しにくい</p>
+                <p>・スライドの持ち歩き不要</p>
+                <p>・クラウドサービスでもいくつか存在</p>
+            </div>
+            <div class="step slide" data-x="0" data-y="-1500">
+                <q>？？？</q>
+                <p>こういうやつ</p>
+                <br />
+                <span class="small">前回の技術MTGで使用したElixirの紹介スライド</span>
+                <iframe src="http://piyoshi.github.io/StudyMeeting/slides/elixir_meetup.html" frameborder="0"></iframe>
+            </div>
+            <div class="step slide" data-x="1000" data-y="-1500">
+                <q>メリットは？</q>
+                <p>・脱パワポ！！</p>
+                <p>・簡単におしゃれなスライド</p>
+                <p>・Webアプリケーション並のコンテンツ</p>
+                <p>・ユーザとインタラクティブなスライド</p>
+                <p>・慣れれば素早くスライドを作成</p>
+                <p>・Markdownでスライドを作成</p>
+            </div>
+
+            <div class="step" data-x="-2200" data-y="-800" data-scale="2">
+                <div class="emphasis">色々なプレゼンツールを紹介</div>
+            </div>
+
+            <div id="supplementation" class="step" data-x="-2200" data-y="-50" data-rotate="90" data-rotate-y="40" data-scale="1.4">
+                <div class="main">
+                    <span>といっても<a class="zigzag-front" href="http://qiita.com/KENJU/items/938c947d84ca9fc35108">ここのツール紹介記事</a>で</span><br />
+                    <span class="zigzag-back">だいたい紹介されているので、</span><br />
+                    <span class="zigzag-front">いろんなツールを知りたい方は</span><br />
+                    <span class="zigzag-back">そちらを参照</span>
+                </div>
+            </div>
+
+            <div class="step" data-x="1700" data-y="100" data-rotate="180" data-scale="2">
+                <div class="emphasis">ここでは個人的なおすすめを紹介</div>
+            </div>
+
+            <div id="sample-tool-1" class="step normal" data-x="1528" data-y="96" data-z="-200" data-scale="0.1">
+                <div class="headnote">おすすめツール１</div>
+                <div class="main">
+                    <div class="left">
+                        <p>reveal.js</p>
+                        <iframe src="http://lab.hakim.se/reveal-js/#/" frameborder="0"></iframe>
+                    </div>
+                    <div class="right">
+                        <br />
+                        <ul>
+                            <li>・一番有名ドコロかも</li>
+                            <li>・簡単にモダンデザイン</li>
+                            <li>・デフォルトで高機能</li>
+                        </ul>
+                        <br />
+                        <span>前回はこれを使用</span>
+                    </div>
+                </div>
+            </div>
+            <div id="sample-tool-2" class="step normal" data-x="1528" data-y="96" data-z="-200" data-scale="0.1">
+                <div class="headnote">おすすめツール２</div>
+                <div class="main">
+                    <div class="left">
+                        <p>impress.js</p>
+                        <iframe src="http://impress.github.io/impress.js/#/bored" frameborder="0"></iframe>
+                    </div>
+                    <div class="right">
+                        <br />
+                        <ul>
+                            <li>・3Dスライドショーが簡単</li>
+                            <li>・サイズとソースが小さい</li>
+                            <li>・回転、拡大縮小、移動</li>
+                        </ul>
+                        <br />
+                        <span>今日はこれを使ってます</span>
+                    </div>
+                </div>
+            </div>
+            <div id="sample-tool-3" class="step normal" data-x="1528" data-y="96" data-z="-200" data-scale="0.1">
+                <div class="headnote">おすすめツール３</div>
+                <div class="main">
+                    <div class="left">
+                        <p>Frowtime.js</p>
+                        <iframe src="http://flowtime-js.marcolago.com/#/section-1/page-1" frameborder="0"></iframe>
+                    </div>
+                    <div class="right">
+                        <br />
+                        <ul>
+                            <li>・デモが宇宙人的</li>
+                            <li>・カスタマイズしやすめ</li>
+                            <li>・なんかアメリカンな感じ</li>
+                        </ul>
+                        <br/>
+                        <span>よく見たら更新が・・・</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step" data-x="2500" data-y="-400" data-rotate="30" data-rotate-x="-10" data-rotate-y="20" data-scale="3">
+                <div class="emphasis">実際に作ってみましょう</div>
+            </div>
+
+            <div id="work" class="step" data-x="-1500" data-y="1200" data-rotate="-30" data-rotate-x="-180" data-scale="2">
+                <div class="headnote"><a href="https://github.com/hakimel/reveal.js/">Reveal.js</a>でスライドを作成</div>
+                <div class="main">
+                    <p>簡単3ステップ！ ﾄﾞﾔｯ! ( ´_ゝ`)</p>
+                    <ol>
+                        <li>1. Githubから落とす！</li>
+                        <li>2. スライド修正！</li>
+                        <li>3. ブラウザで表示！</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div id="overview" class="step" data-x="1000" data-y="500" data-scale="7"></div>
+        </div>
+        <!-- End of slides. -->
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) {
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right navigate</p>";
+            }
+        </script>
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
