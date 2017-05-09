@@ -6,5 +6,5 @@ gulp.task 'server', ->
         .pipe webserver {
             livereload: true
             directoryListing: true
-            port: 8080
+            port: 3000
         }
