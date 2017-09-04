@@ -323,9 +323,9 @@ public class HelloRestApplication {
 Rest APIを追加
 
 - 全データ取得  
-  => [GET] https://localhost:8080/cities
+  => [GET] http://localhost:8080/cities
 - データ作成  
-  => [POST] https://localhost:8080/cities
+  => [POST] http://localhost:8080/cities
 
 --
 
