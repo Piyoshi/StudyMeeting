@@ -1,4 +1,4 @@
-2017-09-04
+<div class="today">&nbsp;</div>
 
 ## はじめての<br>SpringBoot
 

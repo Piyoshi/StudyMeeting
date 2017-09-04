@@ -81,6 +81,27 @@
 
 
 		</script>
+    <script>
+      var fixDate = function() {
+        var today = new Date();
+        var formatDate = "YYYY-MM-DD";
+        formatDate = formatDate.replace(/YYYY/g, today.getFullYear());
+        formatDate = formatDate.replace(/MM/g, ('0' + (today.getMonth() + 1)).slice(-2));
+        formatDate = formatDate.replace(/DD/g, ('0' + today.getDate()).slice(-2));
+        var dateTagList = document.getElementsByClassName("today");
+        for (var i = 0; i < dateTagList.length; i++) {
+          dateTagList[i].innerText = formatDate;
+        }
+      }
+
+      if (window.addEventListener) {
+        window.addEventListener('load', fixDate, false);
+      } else if (window.attachEvent) {
+        window.attachEvent('onload', fixDate);
+      } else {
+        window.onload = fixDate;
+      }
+    </script>
 
 	</body>
 </html>
