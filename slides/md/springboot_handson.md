@@ -320,7 +320,7 @@ public class HelloRestApplication {
 
 --
 
-Rest APIを追加
+なんちゃってRest APIを追加
 
 - 全データ取得  
   => [GET] http://localhost:8080/cities
@@ -459,7 +459,7 @@ package com.example;
 @SpringBootApplication
 public class HelloApplication implements CommandLineRunner {
 	// GreetingServiceを実装した何らかのクラス
-	private GreetingService greetingService;
+	private final GreetingService greetingService;
 
 	・・・
 
@@ -486,8 +486,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @SpringBootApplication
 public class HelloApplication implements CommandLineRunner {
+	private final GreetingService greetingService;
+
 	@Autowired
-	private GreetingService greetingService;
+	public HelloApplication(GreetingService greetingService) {
+		this.greetingService = greetingService;
+	}
 
 	・・・
 }
